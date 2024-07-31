@@ -83,6 +83,7 @@ export default function Timer() {
             style={{
                 height: '100%',
                 padding: '32px',
+                zIndex: 2,
                 background: finished ? 'grey' : theme.palette.background.default,
             }}
         >
@@ -96,6 +97,7 @@ export default function Timer() {
                     alignItems: 'center',
                     position: 'relative',
                     overflow: 'hidden',
+                    zIndex: 2,
                 }}
             >
                 {/* View */}
@@ -105,6 +107,7 @@ export default function Timer() {
                         height: '230px',
                         width: '100%',
                         display: 'flex',
+                        zIndex: 2,
                         flexDirection: 'column',
                         alignItems: 'center',
                     }}
@@ -130,6 +133,7 @@ export default function Timer() {
                             variant='outlined'
                             fullWidth
                             sx={{
+                                zIndex: 2,
                                 textTransform: 'none',
                                 fontSize: '1.5rem',
                                 minHeight: '100px',

@@ -47,7 +47,7 @@ function OptionItem(props: Props) {
             color='primary'
             onClick={props.onClick}
             variant={props.selected === props.seconds ? 'contained' : 'outlined'}
-            sx={{ minWidth: '100px' }}
+            sx={{ minWidth: '100px', zIndex: 2 }}
         >
             <Typography
                 sx={{
