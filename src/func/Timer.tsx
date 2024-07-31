@@ -147,7 +147,7 @@ export default function Timer() {
                 {/* Options */}
                 <Options selected={selected} onSelected={startTimer} />
 
-                <Progress seconds={selected} running={!!intervalRef.current} />
+                {/* <Progress seconds={selected} running={!!intervalRef.current} /> */}
             </div>
         </div>
     );
